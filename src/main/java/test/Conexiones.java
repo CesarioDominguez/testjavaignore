@@ -15,7 +15,7 @@ public class Conexiones {
 	}
 
 	private void setBDMysql() {
-		BDMysql = "Server=myServerMYSQLProduccion;Database=myDataBase;User Id=myUsername;Password=myPassword;";
+		BDMysql = "Server=myServerMYSQLTest;Database=myDataBase;User Id=myUsername;Password=myPassword;";
 	}
 
 	public String getBDSQL() {
@@ -23,7 +23,7 @@ public class Conexiones {
 	}
 
 	private void setBDSQL() {
-		BDSQL = "Server=myServerAddressProduccion;Database=myDataBase;User Id=myUsername;Password=myPassword;";
+		BDSQL = "Server=myServerAddressTest;Database=myDataBase;User Id=myUsername;Password=myPassword;";
 	}
 		
 	
