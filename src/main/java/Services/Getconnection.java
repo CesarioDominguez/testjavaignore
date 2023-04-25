@@ -15,5 +15,11 @@ public class Getconnection {
 		 Conexiones connect = new Conexiones();		 
 		 return connect.getBDSQL();		
 	}
+	
+	
+	public String GetListado() {
+		
+		 return "";
+	}
 
 }
